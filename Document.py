@@ -7,10 +7,6 @@ class Document:
         self.date = date.strftime("%Y-%m-%d")
         self.url = url
         self.texte = texte
-        self.type = None
-
-    def __str__(self):
-        return f"Document : {self.titre}" 
     
     def affichage_info(self):
         print(f"Titre : {self.titre}")
@@ -32,7 +28,7 @@ class RedditDocument(Document):
 
     def __str__(self):
         super().affichage_info()
-        return f"Nombre de commentaires :{self.nb_comment}"
+        return f"Nombre de commentaires : {self.nb_comment}\nType : {self.type}"
     
     def getNb_comment(self):
         return self.nb_comment
@@ -52,7 +48,7 @@ class ArxivDocument(Document):
     
     def __str__(self):
         super().affichage_info()
-        return f"Co-Auteur(s) : {self.coAuteur}"
+        return f"Co-Auteur(s) : {self.coAuteur}\nType : {self.type}"
     
     def get_CoAuteur(self):
         return self.coAuteur
@@ -62,7 +58,3 @@ class ArxivDocument(Document):
 
     def getType(self):
         return self.type
-
-
-#document.auteur = 1er auteur
-#arxivdocument coauteur = tous les autres auteurs
