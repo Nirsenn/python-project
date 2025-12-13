@@ -7,7 +7,6 @@
 Ce projet rassemble les travaux réalisés dans le cadre des TDs de **Programmation de Spécialité (Python)**.  
 L’objectif global est de **collecter, analyser et explorer des corpus de documents** de manière interactive et conviviale.
 
----
 
 ## Objectifs
 
@@ -19,7 +18,6 @@ L’objectif global est de **collecter, analyser et explorer des corpus de docum
 - Créer une interface interactive dans Jupyter Notebook pour la recherche, la visualisation et la comparaison des corpus.  
 - Observer l’évolution temporelle des mots et générer des Word Clouds.
 
----
 
 ## TDs et fonctionnalités
 
@@ -59,7 +57,6 @@ L’objectif global est de **collecter, analyser et explorer des corpus de docum
 - Génération de **Word Clouds** interactifs.  
 - Possibilité de filtrer les recherches par auteur, type de document ou période.
 
----
 
 ## Fonctionnalités principales
 
@@ -72,7 +69,6 @@ L’objectif global est de **collecter, analyser et explorer des corpus de docum
 - Visualisation temporelle des mots et génération de Word Clouds.  
 - Interface Jupyter Notebook conviviale et modulaire.
 
----
 ## Interface interactive
 
 Voici un aperçu de l’interface créée pour explorer et rechercher dans le corpus :
