@@ -73,5 +73,10 @@ L’objectif global est de **collecter, analyser et explorer des corpus de docum
 - Interface Jupyter Notebook conviviale et modulaire.
 
 ---
+## Interface interactive
+
+Voici un aperçu de l’interface créée pour explorer et rechercher dans le corpus :
+
+![Interface Jupyter Notebook](images/interface.png)
 
 Lien vers le rapport : https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing
