@@ -1,4 +1,4 @@
-# Projet Programmation de Spécialité – Python (TD3 à TD10)
+# Projet Programmation de Spécialité – Python 
 
 **Auteur :** Aissatou Lamarana Barry ET Nissrine Ben Ayou
 **Année :** 2025-2026  
