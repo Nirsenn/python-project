@@ -8,6 +8,7 @@ Ce projet rassemble les travaux réalisés dans le cadre des TDs de **Programmat
 L’objectif global est de **collecter, analyser et explorer des corpus de documents** de manière interactive et conviviale.
 
 
+
 ## Objectifs
 
 - Collecter des documents depuis différentes sources : CSV, API, web scraping.  
@@ -17,6 +18,7 @@ L’objectif global est de **collecter, analyser et explorer des corpus de docum
 - Implémenter un moteur de recherche par mots-clés avec scores TF et TF-IDF.  
 - Créer une interface interactive dans Jupyter Notebook pour la recherche, la visualisation et la comparaison des corpus.  
 - Observer l’évolution temporelle des mots et générer des Word Clouds.
+
 
 
 ## TDs et fonctionnalités
@@ -58,6 +60,7 @@ L’objectif global est de **collecter, analyser et explorer des corpus de docum
 - Possibilité de filtrer les recherches par auteur, type de document ou période.
 
 
+
 ## Fonctionnalités principales
 
 - Collecte et extraction de données : CSV, API, web scraping.  
@@ -68,6 +71,8 @@ L’objectif global est de **collecter, analyser et explorer des corpus de docum
 - Comparaison et visualisation de corpus multiples.  
 - Visualisation temporelle des mots et génération de Word Clouds.  
 - Interface Jupyter Notebook conviviale et modulaire.
+
+
 
 ## Interface interactive
 
