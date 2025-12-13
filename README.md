@@ -1,7 +1,6 @@
 # Projet Programmation de Spécialité – Python 
 
 **Auteur :** Aissatou Lamarana Barry et Nissrine Ben Ayou
-
 **Année :** 2025-2026  
 **Enseignant :** Tetiana Yemelianenko 
 
