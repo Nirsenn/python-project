@@ -125,8 +125,8 @@ La présente version du projet correspond donc à la **version finale (v3)**.
 ### 1 - Cloner ou récupérer le projet
 
 ```bash
-git clone <url_du_projet>
-cd nom_du_projet
+git clone <https://github.com/Nirsenn/python-project>
+cd python-project
 ```
 
 Ou dézipper l’archive du projet et se placer dans le dossier.
@@ -170,7 +170,7 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 
 ---
 
-## Organisation du projet (exemple)
+## Organisation du projet
 
 ```
 ├── api_corpus.py
@@ -206,8 +206,8 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 ## Lien vers le rapport
 
 ```bash
-[pip install -r requirements.txt](https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing
-)
+https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing
+
 ```
 
 ---
