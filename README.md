@@ -1,9 +1,9 @@
 # Projet Python – Analyse et recherche de documents (Reddit & ArXiv)
 
-**Auteurs :** Aissatou Lamarana Barry & Nissrine Ben Ayou
-**Année universitaire :** 2025–2026
-**Enseignant :** Tetiana Yemelianenko
-**UE :** Programmation de Spécialité – Python
+**Auteurs :** Aissatou Lamarana Barry & Nissrine Ben Ayou  
+**Année universitaire :** 2025–2026  
+**Enseignant :** Tetiana Yemelianenko  
+**UE :** Programmation de Spécialité – Python  
 
 ---
 
