@@ -7,6 +7,8 @@ class Document:
         self.date = date.strftime("%Y-%m-%d")
         self.url = url
         self.texte = texte
+        self.type = "phrase"
+
     
     def affichage_info(self):
         print(f"Titre : {self.titre}")
@@ -50,6 +52,7 @@ class ArxivDocument(Document):
         super().affichage_info()
         return f"Co-Auteur(s) : {self.coAuteur}\nType : {self.type}"
     
+    # Tous les auteurs additionnels de l'articles
     def get_CoAuteur(self):
         return self.coAuteur
     
