@@ -5,7 +5,7 @@
 **Enseignant :** Tetiana Yemelianenko  
 **UE :** Programmation de Spécialité – Python  
 
----
+
 
 ##  Description
 
@@ -25,7 +25,7 @@ Le projet utilise notamment :
 * des structures de corpus et documents personnalisées
 * des outils de NLP (NLTK, TF, TF-IDF, matrices creuses, etc.)
 
----
+
 
 ## Objectifs
 
@@ -37,7 +37,7 @@ Le projet utilise notamment :
 * Créer une interface interactive dans **Jupyter Notebook** pour la recherche, la visualisation et la comparaison des corpus.
 * Observer l’évolution temporelle des mots et générer des **Word Clouds**.
 
----
+
 
 ## TDs et fonctionnalités
 
@@ -84,7 +84,7 @@ Le projet utilise notamment :
 * Visualisation de l’évolution temporelle des mots.
 * Génération de **Word Clouds** interactifs.
 
----
+
 
 ## Fonctionnalités principales
 
@@ -97,7 +97,7 @@ Le projet utilise notamment :
 * Analyse temporelle des mots et Word Clouds.
 * Interface Jupyter Notebook conviviale et modulaire.
 
----
+
 
 ## Gestion des versions (Git)
 
@@ -110,7 +110,7 @@ Trois **tags** ont été créés afin de marquer les étapes clés du projet :
 
 La présente version du projet correspond donc à la **version finale (v3)**.
 
----
+
 
 ## Prérequis
 
@@ -118,7 +118,7 @@ La présente version du projet correspond donc à la **version finale (v3)**.
 * `pip` installé
 * Connexion Internet (API Reddit, ArXiv, ressources NLTK)
 
----
+
 
 ## Installation
 
@@ -131,7 +131,7 @@ cd python-project
 
 Ou dézipper l’archive du projet et se placer dans le dossier.
 
----
+
 
 ### 2 -  Installer les dépendances
 
@@ -139,7 +139,7 @@ Ou dézipper l’archive du projet et se placer dans le dossier.
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Ressources NLTK
 
@@ -150,7 +150,7 @@ Lors de la **première exécution**, le projet télécharge automatiquement :
 
 NB: Une connexion Internet est nécessaire la première fois.
 
----
+
 
 ## Lancer le projet
 
@@ -160,7 +160,7 @@ Puis ouvrir le notebook principal du projet:
 
 `UserInterface.ipynb` et  executer le premier bloc de code pour lancer l'interface via le notebook.
 
----
+
 
 ## Interface interactive
 
@@ -168,7 +168,6 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 
 ![Interface Jupyter Notebook](images/Interface.png)
 
----
 
 ## Organisation du projet
 
@@ -186,7 +185,6 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 └── README.md
 ```
 
----
 
 ## Bibliothèques utilisées
 
@@ -201,7 +199,6 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 * numpy
 * tqdm
 
----
 
 ## Lien vers le rapport
 
@@ -210,7 +207,6 @@ https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/
 
 ```
 
----
 
 ## Licence
 
