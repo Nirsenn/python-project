@@ -125,7 +125,7 @@ La présente version du projet correspond donc à la **version finale (v3)**.
 ### 1 - Cloner ou récupérer le projet
 
 ```bash
-git clone <https://github.com/Nirsenn/python-project>
+git clone https://github.com/Nirsenn/python-project
 cd python-project
 ```
 
