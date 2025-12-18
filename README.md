@@ -208,6 +208,7 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 
 Projet à usage pédagogique.
 
---
+---
+
 Ce projet constitue une synthèse progressive des notions abordées tout au long des TDs de Programmation de Spécialité en Python.
 
