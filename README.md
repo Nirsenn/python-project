@@ -121,6 +121,11 @@ Version finale, contenu de la V2 plus :
 ├── requirements.txt
 └── README.md
 ```
+- *Corpus.py*, *Document.py*, *DocumentFactory.py*, *Author.py* et *SearchEngine.py* → classes utilisées pour le corpus.
+- *interface.py* → Construction de l'interface utilisateur.
+- *UserInterface.ipynb* → Interface finale, fichier que doit exécuter l'utilisateur.
+- *api_corpus.py* → Requêtes API, création du corpus et enregistrement de celui en .csv.
+- *data.csv* → Exemple de produit de *api_corpus.py*, exploitable par *interface.py*.
 
 ## Prérequis
 
