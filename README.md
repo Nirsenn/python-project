@@ -202,10 +202,8 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 
 ## Lien vers le rapport
 
-```bash
-https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing
+ [Accéder au rapport du projet](https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing)
 
-```
 
 
 ## Licence
