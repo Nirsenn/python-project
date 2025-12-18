@@ -1,0 +1,13 @@
+praw
+requests
+xmltodict
+python-dateutil
+pandas
+matplotlib
+nltk
+scipy
+numpy
+tqdm
+
+# Dans un nouveau environnement ou sur une autre machine pour installer les dependances : 
+# pip install -r requirements.txt 
