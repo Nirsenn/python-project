@@ -2,9 +2,22 @@
 
 **Auteurs :** Aissatou Lamarana Barry & Nissrine Ben Ayou  
 **Année universitaire :** 2025–2026  
-**Enseignant :** Tetiana Yemelianenko  
+**Enseignante :** Tetiana Yemelianenko  
 **UE :** Programmation de Spécialité – Python  
 
+## Sommaire
+- [Description](#description)
+- [Objectifs](#objectifs)
+- [Contenu des versions](#contenu-par-versions)
+  - [V1](#v1)
+  - [V2](#v2)
+  - [V3](#v3)
+- [Fonctionnalités](#fonctionnalités-principales)
+- [Architecture du projet](#organisation-du-projet)
+- [Prérequis d'installation](#prérequis)
+- [Installation](#installation)
+- [Apperçu de l'UI](#interface-interactive)
+- [Rapport](#lien-vers-le-rapport)
 
 
 ## Description
@@ -39,52 +52,49 @@ Le projet utilise notamment :
 
 
 
-## TDs et fonctionnalités
+## Contenu par versions
+Chaque tag représente une version différente du projet comme suit :
 
-### TD3 – Extraction et prétraitement des données
+### V1
+#### TD3 – Extraction et prétraitement des données
+- **Collecte de données** via fichiers CSV, API externes et web scraping (ex. Reddit, Arxiv).  
+- Découpage des textes en phrases ou mots.  
+- Construction d’un vocabulaire du corpus et premières statistiques.  
 
-* Collecte de données via fichiers CSV, API externes et web scraping (Reddit, ArXiv).
-* Découpage des textes en phrases ou mots.
-* Construction du vocabulaire du corpus et premières statistiques.
+#### TD4 – Structuration des documents
+- Classes `Document` et `Author` pour gérer les textes et les auteurs.  
+- Classe `Corpus` pour regrouper les documents, trier et explorer les données.
+- Autres Classes, voir projet.
 
-### TD4 – Structuration des documents
+#### TD5 – Héritage et polymorphisme
+- Gestion de types spécifiques de documents (`RedditDocument`, `ArxivDocument`).  
+- Exploitation du polymorphisme pour manipuler différents documents de manière uniforme.
 
-* Classes `Document` et `Author` pour représenter les textes et leurs auteurs.
-* Classe `Corpus` pour regrouper, trier et explorer les documents.
-* Autres classes disponibles dans le projet.
+### V2
+Contenu de la V1 plus :
+#### TD6 – Analyse textuelle
+- Recherche de mots-clés et expressions via **expressions régulières**.  
+- Construction d’un **concordancier** pour visualiser le contexte des mots.  
+- Statistiques textuelles : comptage des mots, fréquence par document et dans le corpus.  
 
-### TD5 – Héritage et polymorphisme
+#### TD7 – Moteur de recherche
+- Construction d’une **matrice Documents × Termes**.  
+- Calcul des scores **TF** et **TF-IDF**.  
+- Recherche par mots-clés avec vecteurs de requête et mesure de similarité (produit scalaire ou cosinus).  
+- Résultats présentés sous forme de **DataFrame**.
 
-* Gestion de documents spécialisés (`RedditDocument`, `ArxivDocument`).
-* Utilisation du polymorphisme pour une manipulation uniforme des documents.
+### V3
+Version finale, contenu de la V2 plus :
+#### TD8 – Interface Jupyter Notebook
+- Découpage des textes longs en phrases.  
+- Recherche interactive avec filtres : auteur, type de document, année.  
+- Affichage dynamique des résultats avec `widgets` (`Text`, `IntSlider`, `Button`, `Output`).  
 
-### TD6 – Analyse textuelle
-
-* Recherche de mots-clés via **expressions régulières**.
-* Construction d’un **concordancier** pour visualiser le contexte des mots.
-* Statistiques textuelles : fréquences et comptages.
-
-### TD7 – Moteur de recherche
-
-* Construction d’une **matrice Documents × Termes**.
-* Calcul des scores **TF** et **TF-IDF**.
-* Recherche par requête avec mesure de similarité (produit scalaire ou cosinus).
-* Résultats affichés sous forme de **DataFrame**.
-
-### TD8 – Interface Jupyter Notebook
-
-* Découpage des textes longs en phrases.
-* Recherche interactive avec filtres (auteur, type de document, année).
-* Interface dynamique avec `ipywidgets`.
-
-### TD9 & TD10 – Interface avancée et exploration comparative
-
-* Comparaison de corpus (Reddit vs ArXiv).
-* Analyse des mots spécifiques ou communs.
-* Visualisation de l’évolution temporelle des mots.
-* Génération de **Word Clouds** interactifs.
-
-
+#### TD9 et TD10 – Interface avancée et exploration comparative
+- Comparaison de deux corpus (Reddit vs Arxiv) : mots spécifiques ou communs.  
+- Visualisation de l’évolution temporelle des mots.  
+- Génération de **Word Clouds** interactifs.  
+- Possibilité de filtrer les recherches par auteur, type de document ou période.
 
 ## Fonctionnalités principales
 
@@ -97,79 +107,7 @@ Le projet utilise notamment :
 * Analyse temporelle des mots et Word Clouds.
 * Interface Jupyter Notebook conviviale et modulaire.
 
-
-
-## Gestion des versions (Git)
-
-Le projet a été versionné avec **Git** dès le début du développement.
-Trois **tags** ont été créés afin de marquer les étapes clés du projet :
-
-* **v1** : (TD3-TD5) première version fonctionnelle (bases de la collecte et structuration des documents)
-* **v2** : (TD3-TD7) version intermédiaire avec enrichissement des analyses textuelles et du moteur de recherche
-* **v3** : (TD3-TD10) **version finale** du projet, correspondant à l’état actuel du dépôt
-
-La présente version du projet correspond donc à la **version finale (v3)**.
-
-
-
-## Prérequis
-
-* **Python 3.9 ou plus**
-* `pip` installé
-* Connexion Internet (API Reddit, ArXiv, ressources NLTK)
-
-
-
-## Installation
-
-### 1 - Cloner ou récupérer le projet
-
-```bash
-git clone https://github.com/Nirsenn/python-project
-cd python-project
-```
-
-Ou dézipper l’archive du projet et se placer dans le dossier.
-
-
-
-### 2 -  Installer les dépendances
-
-```bash
-pip install -r requirements.txt
-```
-
-
-
-## Ressources NLTK
-
-Lors de la **première exécution**, le projet télécharge automatiquement :
-
-* `punkt_tab`
-* `stopwords`
-
-NB: Une connexion Internet est nécessaire la première fois.
-
-
-
-## Lancer le projet
-Via **un environnement de développement intégré (IDE), par exemple VS Code** :
-
-Puis ouvrir le notebook principal du projet:
-
-`UserInterface.ipynb` et  executer le premier bloc de code pour lancer l'interface via le notebook.
-
-
-
-## Interface interactive
-
-Aperçu de l’interface Jupyter Notebook permettant l’exploration et la recherche dans le corpus :
-
-![Interface Jupyter Notebook](images/Interface.png)
-
-
 ## Organisation du projet
-
 ```
 ├── api_corpus.py
 ├── Author.py
@@ -184,9 +122,13 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 └── README.md
 ```
 
+## Prérequis
 
-## Bibliothèques utilisées
+* **Python 3.9 ou plus**
+* `pip` installé
+* Connexion Internet (API Reddit, ArXiv, ressources NLTK)
 
+installer les ibliothèques utilisées :
 * praw
 * requests
 * xmltodict
@@ -197,6 +139,41 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 * scipy
 * numpy
 * tqdm
+
+## Installation
+### 1 - Cloner ou récupérer le projet
+
+```bash
+git clone https://github.com/Nirsenn/python-project
+cd python-project
+```
+Ou dézipper l’archive du projet et se placer dans le dossier.
+
+### 2 -  Installer les dépendances
+
+```bash
+pip install -r requirements.txt
+```
+
+## Ressources NLTK
+Lors de la **première exécution**, le projet télécharge automatiquement :
+* `punkt_tab`
+* `stopwords`
+NB: Une connexion Internet est nécessaire la première fois.
+
+## Lancer le projet
+Via **un environnement de développement intégré (IDE), par exemple VS Code** :
+
+Puis ouvrir le notebook principal du projet:
+
+`UserInterface.ipynb` et  executer le premier bloc de code pour lancer l'interface via le notebook.
+
+
+## Interface interactive
+
+Aperçu de l’interface Jupyter Notebook permettant l’exploration et la recherche dans le corpus :
+
+![Interface Jupyter Notebook](images/Interface.png)
 
 
 ## Lien vers le rapport
