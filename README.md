@@ -203,13 +203,12 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
 
 ---
 
-## Interface interactive
+## Lien vers le rapport
 
-Voici un aperçu de l’interface créée pour explorer et rechercher dans le corpus :
-
-![Interface Jupyter Notebook](images/Interface.png)
-
-Lien vers le rapport : https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing
+```bash
+[pip install -r requirements.txt](https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing
+)
+```
 
 ---
 
