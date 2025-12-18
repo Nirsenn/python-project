@@ -7,7 +7,7 @@
 
 
 
-##  Description
+## Description
 
 Ce projet a pour objectif de construire un **corpus de documents** à partir de différentes sources (Reddit, ArXiv), puis de permettre leur **analyse textuelle**, leur **indexation** et leur **recherche** à l’aide de techniques de traitement automatique du langage naturel (NLP).
 
@@ -153,8 +153,7 @@ NB: Une connexion Internet est nécessaire la première fois.
 
 
 ## Lancer le projet
-
-* Via **un environnenment de developpement integré (IDE) VS Code par exemple** :
+Via **un environnement de développement intégré (IDE), par exemple VS Code** :
 
 Puis ouvrir le notebook principal du projet:
 
@@ -205,7 +204,10 @@ Aperçu de l’interface Jupyter Notebook permettant l’exploration et la reche
  [Accéder au rapport du projet](https://docs.google.com/document/d/1hgUCek0he4WxjKjYceFKAqiJ4tZ-Qe0lW4a-XYOyQnE/edit?usp=sharing)
 
 
-
 ## Licence
 
 Projet à usage pédagogique.
+
+--
+Ce projet constitue une synthèse progressive des notions abordées tout au long des TDs de Programmation de Spécialité en Python.
+
